@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ssid3"
+        android:layout_width="244dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/fbt"
+        android:text="ssid3"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/ssid4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssid1"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/todaystime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'll DESAPEAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/pressme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/ssid1"
+        android:layout_width="244dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/fbt"
+        android:text="ssid1"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263" />
+
+    <TextView
+        android:id="@+id/ssid2"
+        android:layout_width="244dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/fbt"
+        android:text="ssid2"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/ssid4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssid1"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <TextView
+        android:id="@+id/ssid4"
+        android:layout_width="244dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="368dp"
+        android:fontFamily="@font/fbt"
+        android:text="ssid4"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssid1" />
+
+    <TextView
+        android:id="@+id/ssidlevel1"
+        android:layout_width="71dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="176dp"
+        android:text="None"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toEndOf="@+id/ssid1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ssidlevel2"
+        android:layout_width="71dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="80dp"
+        android:text="None"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toEndOf="@+id/ssid2"
+        app:layout_constraintTop_toBottomOf="@+id/ssidlevel1" />
+
+    <TextView
+        android:id="@+id/ssidlevel3"
+        android:layout_width="71dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="80dp"
+        android:text="None"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toEndOf="@+id/ssid3"
+        app:layout_constraintTop_toBottomOf="@+id/ssidlevel2" />
+
+    <TextView
+        android:id="@+id/ssidlevel4"
+        android:layout_width="71dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="80dp"
+        android:text="None"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toEndOf="@+id/ssid4"
+        app:layout_constraintTop_toBottomOf="@+id/ssidlevel3" />
+
+    <EditText
+        android:id="@+id/Position1"
+        android:layout_width="125dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="4dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/fbt"
+        android:gravity="center"
+        android:hint="Input Position"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toEndOf="@+id/pressme"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/samplingtext"
+        android:layout_width="141dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/fhv"
+        android:text="Sampling Number "
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/samplingnumber"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="31dp"
+        android:fontFamily="@font/fbt"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/ssid1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/samplingtext" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
